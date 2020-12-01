@@ -1,0 +1,28 @@
+body {
+  background: url(../img/sushi2.jpg) no-repeat;
+  margin: -30px 0 0 0;
+  height: 1000px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  padding: 15% 0 0 0;
+}
+
+p {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+}
+
+input {
+  margin: auto;
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  margin-left: 44%;
+  text-transform: uppercase;
+  font-weight: bold;
+}

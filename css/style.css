@@ -1,0 +1,227 @@
+div.wrapper {
+background: url(../img/sushi.jpg) no-repeat;
+margin: -30px 0 0 0;
+padding: 0px 0px 3% 0;
+}
+
+div.container {
+  width: 50%;
+  margin: auto;
+}
+
+input {
+  border: 1px solid #b6b6b6;
+}
+
+
+h1 {
+  text-align: center;
+  color: #fff;
+  padding-top: 5%;
+}
+
+h3 {
+  margin-left: 7%;
+}
+
+textarea {
+  border-radius: 25px;
+  margin: 5px 0px 20px 20px;
+  display: block;
+  width: 90%;
+  outline: none;
+  border: 1px solid #b6b6b6;
+}
+
+div.name {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #fff;
+    border-radius: 25px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+span {
+  display: block;
+  margin-left: 7%;
+}
+
+
+div.adress {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+
+div.contact_information {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+div.information_about_order {
+  padding: 20px;
+  margin: 20px 0px 0px 0px;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+div.house {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0px 0px 20px 20px;
+  background-color: #fff;
+}
+
+div.house span {
+  margin-left: 10%;
+}
+
+div.napkins {
+    margin: 20px 0;
+}
+
+#name {
+  width: 90%;
+  height: 50px;
+  border-radius: 25px;
+  margin: 5px 0px 20px 3%;
+  padding: 0px 0px 0px 20px;
+}
+
+#usercity {
+  width: 90%;
+  height: 50px;
+  border-radius: 25px;
+  margin: 5px 0px 20px 3%;
+  padding: 0px 0px 0px 20px;
+}
+
+#userstreet {
+  width: 90%;
+  height: 50px;
+  border-radius: 25px;
+  margin: 5px 0px 20px 3%;
+  padding: 0px 0px 0px 20px;
+}
+
+#userNumberhouse {
+  width: 60%;
+  height: 50px;
+  border-radius: 25px;
+  margin: 5px 0px 0px 0px;
+  padding: 0px 0px 0px 20px;
+}
+
+#userNumberflat {
+  width: 60%;
+  height: 50px;
+  border-radius: 25px;
+  margin: 5px 10px 0px 0px;
+  padding: 0px 0px 0px 20px;
+}
+
+#userNumberphone {
+  width: 90%;
+  height: 50px;
+  border-radius: 25px;
+  margin: 5px 0px 20px 3%;
+  padding: 0px 0px 0px 20px;
+}
+
+#userEmail {
+  width: 90%;
+  height: 50px;
+  border-radius: 25px;
+  margin: 5px 0px 20px 3%;
+  padding: 0px 0px 0px 20px;
+}
+
+input {
+  outline: none;
+}
+
+#sticksQuantity {
+  width: 20%;
+  height: 50px;
+  border-radius: 25px;
+  margin: 5px 0px 20px 3%;
+  padding: 0px 0px 0px 20px;
+}
+
+
+#menusushi {
+  width: 90%;
+  height: 50px;
+  border-radius: 25px;
+  margin: 5px 0px 20px 3%;
+  padding: 0px 0px 0px 20px;
+}
+
+
+input[type="radio"] {
+  width: 7%;
+  height: 30px;
+  margin: 10px 20px 0px 3%;
+  padding: 0px 0px 0px 0px;
+}
+
+input[type="submit"] {
+  width: 30%;
+  height: 50px;
+  margin: 10px 20px 0px 3%;
+  border-radius: 25px;
+  background-color: #000000;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+input[type="reset"] {
+  width: 40%;
+  height: 50px;
+  margin: 10px 0px 0px 0px;
+  border-radius: 25px;
+  background-color: #fff;
+  font-weight: bold;
+  border: 1px solid #000000;
+}
+
+@media (max-width: 968px) {
+  div.container {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  div.container {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  div.container {
+    width: 90%;
+    margin: auto;
+  }
+
+  input[type="reset"] {
+    width: 80%;
+    margin: 10px 0px 0px 10%;
+  }
+
+  input[type="submit"] {
+    width: 80%;
+    height: 50px;
+    margin: 10px 0px 0px 10%;
+  }
+
+}
